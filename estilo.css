@@ -2,32 +2,32 @@
     /* Definir o box */
     width: 400px;
     height: 200px;
-    border: solid yellowgreen;
+    border: solid #74c0fc;
     /* Centralizando o box */
     margin: 10% auto ;
     /* Trabalhando margem interna */
     padding: 0px 20px 0px 20px;
-    background-color: aqua;
-}
-
-.boxtop {
-    /* Eliminando margin no topo da página */
-    margin-top: 0px;
+    background-color: #087f5b;
 }
 
 p {
     /* Visualizando box de p */
-    border: solid yellowgreen;
+    border: solid #74c0fc;
     /* Centralizando o conteudo no seu proprio box */
     padding: 1em;
     /* Centralizando o box p no box div */
     margin-top: 25px;
-    background-color: white;
+    background-color: #d0ebff;
 }
 
 #div-1 {
     /* Diminuindo Margin entre as div´s */
     margin-bottom: -50px;
+}
+
+.boxtop {
+    /* Eliminando margin no topo da página */
+    margin-top: 0px;
 }
 
 .boxbottom {
