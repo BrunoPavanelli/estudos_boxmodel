@@ -1,0 +1,34 @@
+.box {
+    /* Definir o box */
+    width: 400px;
+    height: 200px;
+    border: solid yellowgreen;
+    /* Centralizando o box */
+    margin: 10% auto ;
+    /* Trabalhando margem interna */
+    padding: 0px 20px 0px 20px;
+}
+
+.boxtop {
+    /* Eliminando margin no topo da página */
+    margin-top: 0px;
+}
+
+p {
+    /* Visualizando box de p */
+    border: solid yellowgreen;
+    /* Centralizando o conteudo no seu proprio box */
+    padding: 1em;
+    /* Centralizando o box p no box div */
+    margin-top: 25px;
+}
+
+#div-1 {
+    /* Diminuindo Margin entre as div´s */
+    margin-bottom: -50px;
+}
+
+.boxbottom {
+    /* Eliminando margin no fundo da página */
+    margin-bottom: 0px;
+}
